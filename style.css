@@ -1,0 +1,196 @@
+.container{
+   
+    display: contents;
+}
+
+div{
+    display: block;
+}
+
+.cave{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+     
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+ 
+.button{
+    margin-top: 350px;
+   
+}
+.wrapper{
+    padding: 0 2.125rem;
+    position: absolute;
+    width: 100%;
+    padding: 0 1.5rem;
+    bottom: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    
+}
+.slide-title{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn {
+    white-space: nowrap;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-gray4 {
+    color: #fff;
+    background-color: #7F888F;
+    border-color: #7F888F;
+}
+
+.heading{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+    color: black;
+
+    
+   
+}
+.box1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+    
+}
+.map{
+    padding-top: 80px;
+   border: 10px solid black;
+}
+
+.ih1{
+    justify-content: center;
+    position: absolute;
+   
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+   
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    
+}
+p{
+    background-color: #ecf6f8;
+   
+}
+h3{
+    font-weight: bold;
+    font-style: oblique;
+}
+.ih2{
+    justify-content: center;
+    position: absolute;
+   
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 120px;
+   
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ih3{
+    justify-content: center;
+    position: absolute;
+   
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 120px;
+   
+}
+.content3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ih4{
+    justify-content: center;
+    position: absolute;
+   
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 120px;
+   
+}
+.content4{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ih5{
+    justify-content: center;
+    position: absolute;
+   
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 120px;
+   
+}
+.content5{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ih6{
+    justify-content: center;
+    position: absolute;
+   
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 120px;
+   
+}
+.content6{
+    display: flex;
+    flex-direction: row;
+    
+}
+@media (max-width: 768px) {
+    .ih1, .ih2, .ih3, .ih4, .ih5, .ih6 {
+      width: 100%; /* Make elements stack vertically on small screens */
+    }
+  }
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 1.2rem; /* Adjust for smaller screens */
+    }
+    .ih1 p, .ih2 h3, .ih3 p, .ih4 p, .ih5 p, .ih6 p {
+      padding: 0.8rem; /* Adjust padding for smaller font size */
+    }
+  }
+  @media (max-width: 768px) {
+    .button {
+      margin-top: 1rem; /* Adjust for smaller screens */
+    }
+  }
